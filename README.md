@@ -1,8 +1,8 @@
-**Folders:
+### Folders ###
 
-Written report -  contains the project repot
-Slide Presentation - Contains the project presentation slides
-Demo Video - Due to size of the file, I have uploaded it as drive link with access to view and edit.**
+### Written report -  contains the project repot###
+### Slide Presentation - Contains the project presentation slides###
+### Demo Video - Due to size of the file, I have uploaded it as drive link with access to view and edit.###
 
 
 # Healthcare Content Intelligence Platform
