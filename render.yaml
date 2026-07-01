@@ -14,3 +14,5 @@ services:
         value: 0.0.0.0
       - key: LOG_LEVEL
         value: INFO
+      - key: HCIP_LOW_MEMORY_DEMO
+        value: "1"

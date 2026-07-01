@@ -15,6 +15,7 @@ from components.json_viewer import render_json_viewer
 from components.metric_cards import render_metric_row
 from components.sidebar import render_sidebar
 from components.table_view import render_table
+from utils.runtime_mode import is_low_memory_demo_mode, runtime_mode_label, trim_documents_for_demo
 from utils.session_manager import SessionManager
 from utils.theme import apply_theme
 
@@ -48,9 +49,16 @@ def _extract_pdf(uploaded_file: Any) -> dict[str, Any]:
     loader = PDFLoader()
     file_path = _store_uploaded_file(uploaded_file)
     documents = loader.load_pdf(file_path)
+    hosted_demo = is_low_memory_demo_mode()
+    if hosted_demo:
+        documents = trim_documents_for_demo(documents)
     chunks = loader.split_documents(documents)
     metadata = loader.extract_metadata(file_path)
     statistics = loader.get_statistics(chunks)
+    if hosted_demo:
+        statistics["mode"] = runtime_mode_label()
+        statistics["full_page_count"] = metadata.get("pages", 0)
+        statistics["processed_pages"] = len(documents)
     return {
         "filename": uploaded_file.name,
         "source_path": str(file_path),
@@ -95,6 +103,12 @@ render_header(
     "Upload healthcare PDFs, extract pages, split chunks, and store document objects for downstream AI workflows.",
 )
 
+if is_low_memory_demo_mode():
+    st.info(
+        "Hosted demo mode is active. The app processes a smaller page window per PDF "
+        "to stay responsive on low-memory cloud infrastructure."
+    )
+
 uploaded_files = st.file_uploader(
     "Upload PDF documents",
     type=["pdf"],
@@ -123,14 +137,20 @@ if not payloads:
 else:
     total_pages = sum(payload.get("metadata", {}).get("pages", 0) for payload in payloads)
     total_chunks = sum(len(payload.get("chunks", [])) for payload in payloads)
+    processed_pages = sum(payload.get("statistics", {}).get("processed_pages", payload.get("metadata", {}).get("pages", 0)) for payload in payloads)
     render_metric_row(
         [
             {"title": "Documents", "value": str(len(payloads)), "delta": "Uploaded", "icon": "DOC", "color": "#1455a0"},
-            {"title": "Pages", "value": str(total_pages), "delta": "Extracted", "icon": "PAGE", "color": "#047857"},
+            {"title": "Pages", "value": str(processed_pages if is_low_memory_demo_mode() else total_pages), "delta": "Processed" if is_low_memory_demo_mode() else "Extracted", "icon": "PAGE", "color": "#047857"},
             {"title": "Chunks", "value": str(total_chunks), "delta": "Ready", "icon": "CHUNK", "color": "#7c3aed"},
-            {"title": "Status", "value": "Ready", "delta": "For Phase 4B", "icon": "OK", "color": "#b45309"},
+            {"title": "Status", "value": "Ready", "delta": runtime_mode_label(), "icon": "OK", "color": "#b45309"},
         ]
     )
+    if is_low_memory_demo_mode() and processed_pages != total_pages:
+        st.caption(
+            f"Hosted demo processed {processed_pages} page(s) from {total_pages} total page(s) "
+            "to keep cloud memory usage low."
+        )
     render_table(_metadata_frame(payloads), title="Uploaded Document Metadata", search=False)
     selected = st.selectbox("Preview document", [payload["filename"] for payload in payloads])
     selected_payload = next(payload for payload in payloads if payload["filename"] == selected)

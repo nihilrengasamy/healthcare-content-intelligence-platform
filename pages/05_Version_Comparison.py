@@ -15,6 +15,7 @@ from components.json_viewer import render_json_viewer
 from components.metric_cards import render_metric_row
 from components.sidebar import render_sidebar
 from components.table_view import render_table
+from utils.runtime_mode import is_low_memory_demo_mode, trim_documents_for_demo
 from utils.session_manager import SessionManager
 from utils.theme import apply_theme
 
@@ -45,7 +46,10 @@ def _load_pdf(uploaded_file: Any) -> list[Any]:
     """Load PDF pages with PDFLoader."""
     from modules.pdf_loader import PDFLoader
 
-    return PDFLoader().load_pdf(_save_upload(uploaded_file))
+    documents = PDFLoader().load_pdf(_save_upload(uploaded_file))
+    if is_low_memory_demo_mode():
+        return trim_documents_for_demo(documents)
+    return documents
 
 
 def _changes_frame(report: dict[str, Any], field: str) -> pd.DataFrame:
@@ -75,6 +79,12 @@ render_header(
     "Version Comparison",
     "Compare old and new healthcare policy versions and identify meaningful content changes.",
 )
+
+if is_low_memory_demo_mode():
+    st.info(
+        "Hosted demo mode is active. Version comparison uses a smaller page window from each PDF "
+        "to stay responsive in the cloud."
+    )
 
 col1, col2 = st.columns(2)
 with col1:
