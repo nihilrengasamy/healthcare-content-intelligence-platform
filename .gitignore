@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+.venv311/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated runtime artifacts
+logs/*
+output/*
+data/embeddings/*
+data/models/*
+data/processed_documents/*
+data/rules/*
+
+# Keep directory placeholders
+!logs/.gitkeep
+!output/.gitkeep
+!data/**/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+~$*

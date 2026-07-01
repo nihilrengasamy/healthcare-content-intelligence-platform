@@ -1,0 +1,411 @@
+{"kind":"deck","id":"pr/06ucu1","name":"Deck"}
+{"kind":"layout","layoutId":"095aa6c3-9089-4d06-82f5-cf2ad4638f7f","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"735cfe4e-73cc-4db1-9687-502ec7edcd49","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/18mb1m","slide":1,"title":"Cotiviti Hackathon | Report + POC","textShapes":11}
+{"kind":"shape","id":"sh/mtwra5gb","slide":1,"bbox":[0,0,22,720]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":1,"text":"Cotiviti Hackathon | Report + POC","textPreview":"Cotiviti Hackathon | Report + POC","textChars":33,"textLines":1,"bbox":[70,52,250,28]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":1,"text":"AI-Powered Healthcare Content Intelligence Platform","textPreview":"AI-Powered Healthcare Content Intelligence Platform","textChars":51,"textLines":1,"bbox":[70,120,620,170]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":1,"text":"Transforming Healthcare Policies into Intelligent Decision Support Systems","textPreview":"Transforming Healthcare Policies into Intelligent Decision Support Systems","textChars":74,"textLines":1,"bbox":[72,268,600,84]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":1,"text":"Nihil Rengasamy\nUniversity at Albany\nJune 2026","textPreview":"Nihil Rengasamy | University at Albany | June 2026","textChars":46,"textLines":3,"bbox":[72,566,420,80]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":1,"bbox":[760,98,420,500]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":1,"text":"Policy PDFs","textPreview":"Policy PDFs","textChars":11,"textLines":1,"bbox":[820,150,300,70]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":1,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[958,228,24,28]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":1,"text":"AI Intelligence Layer","textPreview":"AI Intelligence Layer","textChars":21,"textLines":1,"bbox":[820,268,300,70]}
+{"kind":"textbox","id":"sh/sji5snel","slide":1,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[958,346,24,28]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":1,"text":"Decision Support","textPreview":"Decision Support","textChars":16,"textLines":1,"bbox":[820,386,300,70]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":1,"text":"Working POC covers classification, summarization, RAG, rule extraction, feature extraction, claim decision, explainability, and evaluation.","textPreview":"Working POC covers classification, summarization, RAG, rule extraction, feature extraction, claim decision, explainability, and evaluation.","textChars":139,"textLines":1,"bbox":[800,494,340,60]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":1,"text":"Cotiviti Hackathon Assessment","textPreview":"Cotiviti Hackathon Assessment","textChars":29,"textLines":1,"bbox":[70,684,420,18]}
+{"kind":"notes","id":"nt/18mb1m","slide":1,"text":"This deck summarizes both my written report and my working proof of concept for Cotiviti.\nThe topic is AI-powered healthcare content intelligence, which focuses on turning policy-heavy healthcare documents into structured, explainable decision support.\nI will start with the business problem, then show the proposed solution, the system architecture, the demonstration workflow, and the business value for Cotiviti.\nThe key message is that this is not just an AI demo. It is a practical, human-in-the-loop platform concept that fits payment integrity workflows."}
+{"kind":"slide","id":"sl/45v3o4","slide":2,"title":"Problem Statement","textShapes":22}
+{"kind":"textbox","id":"sh/72x4nap4","slide":2,"text":"Problem Statement","textPreview":"Problem Statement","textChars":17,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":2,"text":"Healthcare policy review is manual, fragmented, and difficult to operationalize at scale.","textPreview":"Healthcare policy review is manual, fragmented, and difficult to operationalize at scale.","textChars":89,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":2,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":2,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"shape","id":"sh/0z61032l","slide":2,"bbox":[70,148,430,82]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":2,"text":"Manual review","textPreview":"Manual review","textChars":13,"textLines":1,"bbox":[88,162,394,24]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":2,"text":"Analysts read long PDFs and translate policy language into action.","textPreview":"Analysts read long PDFs and translate policy language into action.","textChars":66,"textLines":1,"bbox":[88,194,394,24]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":2,"bbox":[70,248,430,82]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":2,"text":"Frequent changes","textPreview":"Frequent changes","textChars":16,"textLines":1,"bbox":[88,262,394,24]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":2,"text":"Coverage criteria and coding rules change faster than teams can operationalize.","textPreview":"Coverage criteria and coding rules change faster than teams can operationalize.","textChars":79,"textLines":1,"bbox":[88,294,394,24]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":2,"bbox":[70,348,430,82]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":2,"text":"Slow implementation","textPreview":"Slow implementation","textChars":19,"textLines":1,"bbox":[88,362,394,24]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":2,"text":"Policy updates take time to become usable rules and reference logic.","textPreview":"Policy updates take time to become usable rules and reference logic.","textChars":68,"textLines":1,"bbox":[88,394,394,24]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":2,"bbox":[70,448,430,82]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":2,"text":"Payment leakage risk","textPreview":"Payment leakage risk","textChars":20,"textLines":1,"bbox":[88,462,394,24]}
+{"kind":"textbox","id":"sh/83itgfml","slide":2,"text":"Misread or delayed policy interpretation can affect payment integrity.","textPreview":"Misread or delayed policy interpretation can affect payment integrity.","textChars":70,"textLines":1,"bbox":[88,494,394,24]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":2,"text":"Current challenge flow","textPreview":"Current challenge flow","textChars":22,"textLines":1,"bbox":[580,148,420,26]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":2,"text":"Policy PDF","textPreview":"Policy PDF","textChars":10,"textLines":1,"bbox":[590,205,190,62]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":2,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[806,222,24,28]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":2,"text":"Manual analyst review","textPreview":"Manual analyst review","textChars":21,"textLines":1,"bbox":[850,205,210,62]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":2,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[945,292,24,28]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":2,"text":"Interpretation lag","textPreview":"Interpretation lag","textChars":18,"textLines":1,"bbox":[850,334,210,62]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":2,"text":"←","textPreview":"←","textChars":1,"textLines":1,"bbox":[806,352,24,28]}
+{"kind":"textbox","id":"sh/judg7ads","slide":2,"text":"Delayed rule usage","textPreview":"Delayed rule usage","textChars":18,"textLines":1,"bbox":[590,334,190,62]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":2,"bbox":[575,465,520,118]}
+{"kind":"textbox","id":"sh/1032lszq","slide":2,"text":"Core implication for Cotiviti","textPreview":"Core implication for Cotiviti","textChars":29,"textLines":1,"bbox":[593,479,484,24]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":2,"text":"• Policy understanding stays person-dependent\n• Scaling quality requires more effort, not more intelligence\n• Decision support arrives too late in the workflow","textPreview":"• Policy understanding stays person-dependent | • Scaling quality requires more effort, not more intelligence | • Decision support arrive...","textChars":159,"textLines":3,"bbox":[593,511,484,60]}
+{"kind":"notes","id":"nt/45v3o4","slide":2,"text":"The problem starts with the nature of healthcare content itself. Policy documents are long, complex, and frequently updated.\nToday, much of the interpretation work still depends on manual reading, tribal knowledge, and delayed translation into operational logic.\nThat creates risk in payment accuracy, workflow speed, and compliance. It also makes policy execution inconsistent across teams.\nThis sets up the need for a simple but credible AI proof of concept that shows how documents can be transformed into usable intelligence."}
+{"kind":"slide","id":"sl/bpifgc","slide":3,"title":"Project Objective","textShapes":25}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":3,"text":"Project Objective","textPreview":"Project Objective","textChars":17,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":3,"text":"Move from document-heavy manual review to an AI-assisted, human-validated operating model.","textPreview":"Move from document-heavy manual review to an AI-assisted, human-validated operating model.","textChars":90,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":3,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":3,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":3,"text":"Current process","textPreview":"Current process","textChars":15,"textLines":1,"bbox":[104,146,340,28]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":3,"text":"Read PDF","textPreview":"Read PDF","textChars":8,"textLines":1,"bbox":[118,200,310,58]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":3,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[262,260,24,28]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":3,"text":"Interpret policy","textPreview":"Interpret policy","textChars":16,"textLines":1,"bbox":[118,295,310,58]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":3,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[262,355,24,28]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":3,"text":"Translate to rules","textPreview":"Translate to rules","textChars":18,"textLines":1,"bbox":[118,390,310,58]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":3,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[262,450,24,28]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":3,"text":"Review exceptions","textPreview":"Review exceptions","textChars":17,"textLines":1,"bbox":[118,485,310,58]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":3,"text":"AI-powered process","textPreview":"AI-powered process","textChars":18,"textLines":1,"bbox":[830,146,340,28]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":3,"text":"Upload & classify","textPreview":"Upload & classify","textChars":17,"textLines":1,"bbox":[842,180,310,52]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":3,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[986,232,24,28]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":3,"text":"Summarize & compare","textPreview":"Summarize & compare","textChars":19,"textLines":1,"bbox":[842,255,310,52]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":3,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[986,307,24,28]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":3,"text":"Ask grounded questions","textPreview":"Ask grounded questions","textChars":22,"textLines":1,"bbox":[842,330,310,52]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":3,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[986,382,24,28]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":3,"text":"Extract rules & features","textPreview":"Extract rules & features","textChars":24,"textLines":1,"bbox":[842,405,310,52]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":3,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[986,457,24,28]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":3,"text":"Support decisions","textPreview":"Support decisions","textChars":17,"textLines":1,"bbox":[842,480,310,52]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":3,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[560,326,24,28]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":3,"bbox":[468,266,310,126]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":3,"text":"Automation opportunities","textPreview":"Automation opportunities","textChars":24,"textLines":1,"bbox":[486,280,274,24]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":3,"text":"• Reduce repetitive document reading\n• Standardize interpretation\n• Surface explainable recommendations","textPreview":"• Reduce repetitive document reading | • Standardize interpretation | • Surface explainable recommendations","textChars":103,"textLines":3,"bbox":[486,312,274,68]}
+{"kind":"notes","id":"nt/bpifgc","slide":3,"text":"The objective of this project is not to replace analysts. It is to improve how analysts work.\nOn the left is the current process, which is document-heavy and slow to scale. On the right is the target process, where AI accelerates ingestion, search, summarization, extraction, and decision support.\nThe real value comes from shifting effort away from basic reading and toward higher-value review and judgment.\nThat transition is what the proof of concept was designed to demonstrate end to end."}
+{"kind":"slide","id":"sl/ehjpgc","slide":4,"title":"Why This Matters for Cotiviti","textShapes":16}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":4,"text":"Why This Matters for Cotiviti","textPreview":"Why This Matters for Cotiviti","textChars":29,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":4,"text":"The use case aligns directly with payment integrity, policy interpretation, and explainable operational decision support.","textPreview":"The use case aligns directly with payment integrity, policy interpretation, and explainable operational decision support.","textChars":121,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":4,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":4,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":4,"bbox":[76,160,344,132]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":4,"text":"Reduced manual effort","textPreview":"Reduced manual effort","textChars":21,"textLines":1,"bbox":[94,174,308,24]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":4,"text":"Less time spent reading and re-reading long policy PDFs.","textPreview":"Less time spent reading and re-reading long policy PDFs.","textChars":56,"textLines":1,"bbox":[94,206,308,74]}
+{"kind":"shape","id":"sh/lwval87e","slide":4,"bbox":[454,160,344,132]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":4,"text":"Faster policy updates","textPreview":"Faster policy updates","textChars":21,"textLines":1,"bbox":[472,174,308,24]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":4,"text":"Shorter path from policy revision to usable decision support.","textPreview":"Shorter path from policy revision to usable decision support.","textChars":61,"textLines":1,"bbox":[472,206,308,74]}
+{"kind":"shape","id":"sh/zidonyd0","slide":4,"bbox":[832,160,344,132]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":4,"text":"Improved payment integrity","textPreview":"Improved payment integrity","textChars":26,"textLines":1,"bbox":[850,174,308,24]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":4,"text":"More consistent interpretation of coverage and coding logic.","textPreview":"More consistent interpretation of coverage and coding logic.","textChars":60,"textLines":1,"bbox":[850,206,308,74]}
+{"kind":"shape","id":"sh/svu9knih","slide":4,"bbox":[76,330,344,132]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":4,"text":"Lower operating cost","textPreview":"Lower operating cost","textChars":20,"textLines":1,"bbox":[94,344,308,24]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":4,"text":"Better analyst leverage without adding workflow complexity.","textPreview":"Better analyst leverage without adding workflow complexity.","textChars":59,"textLines":1,"bbox":[94,376,308,74]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":4,"bbox":[454,330,344,132]}
+{"kind":"textbox","id":"sh/sji5snel","slide":4,"text":"Explainable recommendations","textPreview":"Explainable recommendations","textChars":27,"textLines":1,"bbox":[472,344,308,24]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":4,"text":"Human reviewers can see why a recommendation was made.","textPreview":"Human reviewers can see why a recommendation was made.","textChars":54,"textLines":1,"bbox":[472,376,308,74]}
+{"kind":"shape","id":"sh/xs72x4na","slide":4,"bbox":[832,330,344,132]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":4,"text":"Reusable intelligence layer","textPreview":"Reusable intelligence layer","textChars":27,"textLines":1,"bbox":[850,344,308,24]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":4,"text":"Policies become a searchable, structured knowledge asset.","textPreview":"Policies become a searchable, structured knowledge asset.","textChars":57,"textLines":1,"bbox":[850,376,308,74]}
+{"kind":"notes","id":"nt/ehjpgc","slide":4,"text":"This matters for Cotiviti because the business problem is not abstract. It sits directly inside payment integrity and policy-driven operational work.\nThe platform can reduce manual effort, speed up policy interpretation, and improve consistency without removing the analyst from the loop.\nIt also creates explainability and reuse, which are important differentiators in regulated healthcare environments.\nThis slide connects the technical build to clear business outcomes before we go deeper into architecture."}
+{"kind":"slide","id":"sl/h4sd6q","slide":5,"title":"Overall System Architecture","textShapes":40}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":5,"text":"Overall System Architecture","textPreview":"Overall System Architecture","textChars":27,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":5,"text":"End-to-end flow from healthcare documents to explainable decision support.","textPreview":"End-to-end flow from healthcare documents to explainable decision support.","textChars":74,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":5,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":5,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":5,"text":"Input layer","textPreview":"Input layer","textChars":11,"textLines":1,"bbox":[76,146,160,28]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":5,"text":"Ingestion layer","textPreview":"Ingestion layer","textChars":15,"textLines":1,"bbox":[300,146,180,28]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":5,"text":"Knowledge layer","textPreview":"Knowledge layer","textChars":15,"textLines":1,"bbox":[542,146,210,28]}
+{"kind":"textbox","id":"sh/0z61032l","slide":5,"text":"Decision layer","textPreview":"Decision layer","textChars":14,"textLines":1,"bbox":[824,146,180,28]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":5,"text":"Trust layer","textPreview":"Trust layer","textChars":11,"textLines":1,"bbox":[1060,146,130,28]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":5,"text":"Healthcare Documents","textPreview":"Healthcare Documents","textChars":20,"textLines":1,"bbox":[74,220,140,58]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[219,236,24,28]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":5,"text":"PDF Loader","textPreview":"PDF Loader","textChars":10,"textLines":1,"bbox":[239,220,140,58]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[384,236,24,28]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":5,"text":"Document Classifier","textPreview":"Document Classifier","textChars":19,"textLines":1,"bbox":[404,220,140,58]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[549,236,24,28]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":5,"text":"Summarizer","textPreview":"Summarizer","textChars":10,"textLines":1,"bbox":[569,220,140,58]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[714,236,24,28]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":5,"text":"Version Comparison","textPreview":"Version Comparison","textChars":18,"textLines":1,"bbox":[734,220,140,58]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[879,236,24,28]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":5,"text":"Embeddings","textPreview":"Embeddings","textChars":10,"textLines":1,"bbox":[899,220,140,58]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1044,236,24,28]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":5,"text":"FAISS","textPreview":"FAISS","textChars":5,"textLines":1,"bbox":[1064,220,140,58]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":5,"text":"RAG","textPreview":"RAG","textChars":3,"textLines":1,"bbox":[68,376,130,58]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[204,392,24,28]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":5,"text":"Rule Extraction","textPreview":"Rule Extraction","textChars":15,"textLines":1,"bbox":[214,376,130,58]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[350,392,24,28]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":5,"text":"Feature Extraction","textPreview":"Feature Extraction","textChars":18,"textLines":1,"bbox":[360,376,130,58]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[496,392,24,28]}
+{"kind":"textbox","id":"sh/cvixczed","slide":5,"text":"Rule Engine","textPreview":"Rule Engine","textChars":11,"textLines":1,"bbox":[506,376,130,58]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[642,392,24,28]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":5,"text":"ML Model","textPreview":"ML Model","textChars":8,"textLines":1,"bbox":[652,376,130,58]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[788,392,24,28]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":5,"text":"Claim Decision","textPreview":"Claim Decision","textChars":14,"textLines":1,"bbox":[798,376,130,58]}
+{"kind":"textbox","id":"sh/54zidony","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[934,392,24,28]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":5,"text":"Explainability","textPreview":"Explainability","textChars":14,"textLines":1,"bbox":[944,376,130,58]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1080,392,24,28]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":5,"text":"Evaluation Dashboard","textPreview":"Evaluation Dashboard","textChars":20,"textLines":1,"bbox":[1090,376,130,58]}
+{"kind":"textbox","id":"sh/1032lszq","slide":5,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[1122,300,24,28]}
+{"kind":"shape","id":"sh/xobm58z2","slide":5,"bbox":[74,500,1118,104]}
+{"kind":"textbox","id":"sh/83itgfml","slide":5,"text":"Architecture principle","textPreview":"Architecture principle","textChars":22,"textLines":1,"bbox":[92,514,1082,24]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":5,"text":"The platform converts unstructured healthcare documents into grounded answers, reusable rules, structured features, and explainable recommendations. The design intentionally keeps humans in the loop for high-stakes interpretation and decision review.","textPreview":"The platform converts unstructured healthcare documents into grounded answers, reusable rules, structured features, and explainable recom...","textChars":250,"textLines":1,"bbox":[92,546,1082,46]}
+{"kind":"notes","id":"nt/h4sd6q","slide":5,"text":"This is the full system architecture for the proof of concept.\nThe flow begins with multiple healthcare document types and then moves through ingestion, classification, summarization, comparison, embeddings, retrieval, extraction, decision support, and explainability.\nThe architecture is modular by design, which means each stage can be evaluated separately while still contributing to an end-to-end workflow.\nThat modularity is useful for Cotiviti because it supports phased adoption rather than requiring one large system rollout."}
+{"kind":"slide","id":"sl/vwsxz8","slide":6,"title":"Technology Stack","textShapes":16}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":6,"text":"Technology Stack","textPreview":"Technology Stack","textChars":16,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":6,"text":"Grouped by business purpose rather than listed as a flat tool inventory.","textPreview":"Grouped by business purpose rather than listed as a flat tool inventory.","textChars":72,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":6,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":6,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"shape","id":"sh/nih4byhg","slide":6,"bbox":[82,160,338,164]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":6,"text":"Programming","textPreview":"Programming","textChars":11,"textLines":1,"bbox":[100,174,302,24]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":6,"text":"Python 3.11+\nModular OOP structure\nTyped production-style modules","textPreview":"Python 3.11+ | Modular OOP structure | Typed production-style modules","textChars":65,"textLines":3,"bbox":[100,206,302,106]}
+{"kind":"shape","id":"sh/g7adsji5","slide":6,"bbox":[458,160,338,164]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":6,"text":"AI & LLM","textPreview":"AI & LLM","textChars":8,"textLines":1,"bbox":[476,174,302,24]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":6,"text":"Groq / GPT-compatible summarization\nPrompt-managed extraction\nPolicy Q&A patterns","textPreview":"Groq / GPT-compatible summarization | Prompt-managed extraction | Policy Q&A patterns","textChars":81,"textLines":3,"bbox":[476,206,302,106]}
+{"kind":"shape","id":"sh/g7adsji5","slide":6,"bbox":[834,160,338,164]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":6,"text":"Retrieval & NLP","textPreview":"Retrieval & NLP","textChars":15,"textLines":1,"bbox":[852,174,302,24]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":6,"text":"LangChain\nsentence-transformers\nRAG orchestration","textPreview":"LangChain | sentence-transformers | RAG orchestration","textChars":49,"textLines":3,"bbox":[852,206,302,106]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":6,"bbox":[82,366,338,164]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":6,"text":"ML & Analytics","textPreview":"ML & Analytics","textChars":14,"textLines":1,"bbox":[100,380,302,24]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":6,"text":"Scikit-learn\nPandas\nNumPy","textPreview":"Scikit-learn | Pandas | NumPy","textChars":25,"textLines":3,"bbox":[100,412,302,106]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":6,"bbox":[458,366,338,164]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":6,"text":"Application Layer","textPreview":"Application Layer","textChars":17,"textLines":1,"bbox":[476,380,302,24]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":6,"text":"Streamlit multipage UI\nSession state workflow\nDownloadable outputs","textPreview":"Streamlit multipage UI | Session state workflow | Downloadable outputs","textChars":66,"textLines":3,"bbox":[476,412,302,106]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":6,"bbox":[834,366,338,164]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":6,"text":"Storage & Parsing","textPreview":"Storage & Parsing","textChars":17,"textLines":1,"bbox":[852,380,302,24]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":6,"text":"PyMuPDF\nFAISS\nJSON / local artifacts","textPreview":"PyMuPDF | FAISS | JSON / local artifacts","textChars":36,"textLines":3,"bbox":[852,412,302,106]}
+{"kind":"notes","id":"nt/vwsxz8","slide":6,"text":"I grouped the stack by purpose so the audience can see why each technology exists.\nPython and Streamlit support rapid application development. LangChain, embeddings, and FAISS support retrieval and search. Scikit-learn supports lightweight predictive signals. PyMuPDF and structured JSON outputs support document parsing and downstream reuse.\nThe stack is intentionally practical for a hackathon-style proof of concept. It demonstrates capability without overcomplicating deployment.\nNext, I move from technology choice into the live workflow of the POC."}
+{"kind":"slide","id":"sl/vbli7c","slide":7,"title":"Proof of Concept Workflow","textShapes":29}
+{"kind":"textbox","id":"sh/psfil0rq","slide":7,"text":"Proof of Concept Workflow","textPreview":"Proof of Concept Workflow","textChars":25,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":7,"text":"Simple end-to-end demonstrator showing the main functions of the platform.","textPreview":"Simple end-to-end demonstrator showing the main functions of the platform.","textChars":74,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":7,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/wval87ed","slide":7,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":7,"text":"Upload","textPreview":"Upload","textChars":6,"textLines":1,"bbox":[74,214,150,66]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[230,232,24,28]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":7,"text":"Classify","textPreview":"Classify","textChars":8,"textLines":1,"bbox":[259,214,150,66]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[415,232,24,28]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":7,"text":"Summarize","textPreview":"Summarize","textChars":9,"textLines":1,"bbox":[444,214,150,66]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[600,232,24,28]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":7,"text":"Compare","textPreview":"Compare","textChars":7,"textLines":1,"bbox":[629,214,150,66]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[785,232,24,28]}
+{"kind":"textbox","id":"sh/9knih4by","slide":7,"text":"Chat","textPreview":"Chat","textChars":4,"textLines":1,"bbox":[814,214,150,66]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[970,232,24,28]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":7,"text":"Extract Rules","textPreview":"Extract Rules","textChars":13,"textLines":1,"bbox":[999,214,150,66]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":7,"text":"Extract Features","textPreview":"Extract Features","textChars":16,"textLines":1,"bbox":[74,408,150,66]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[230,426,24,28]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":7,"text":"Rule Engine","textPreview":"Rule Engine","textChars":11,"textLines":1,"bbox":[259,408,150,66]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[415,426,24,28]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":7,"text":"ML","textPreview":"ML","textChars":2,"textLines":1,"bbox":[444,408,150,66]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[600,426,24,28]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":7,"text":"Decision","textPreview":"Decision","textChars":8,"textLines":1,"bbox":[629,408,150,66]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[785,426,24,28]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":7,"text":"Explanation","textPreview":"Explanation","textChars":11,"textLines":1,"bbox":[814,408,150,66]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[970,426,24,28]}
+{"kind":"textbox","id":"sh/7u54zido","slide":7,"text":"Evaluation","textPreview":"Evaluation","textChars":10,"textLines":1,"bbox":[999,408,150,66]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":7,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[1134,302,24,28]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":7,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[72,494,24,28]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":7,"bbox":[74,572,1116,52]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":7,"text":"Hackathon design principle: keep the workflow simple, visible, and demonstrable rather than over-optimizing for full production complexity.","textPreview":"Hackathon design principle: keep the workflow simple, visible, and demonstrable rather than over-optimizing for full production complexity.","textChars":139,"textLines":1,"bbox":[92,590,1080,16]}
+{"kind":"notes","id":"nt/vbli7c","slide":7,"text":"This is the live workflow that the proof of concept demonstrates.\nThe user journey starts with document upload and continues through classification, summarization, version comparison, policy chat, rule extraction, feature extraction, rule execution, ML support, claim decisioning, explainability, and evaluation.\nThe important point is that the POC proves the flow across modules, not just isolated technical features.\nThat makes it a strong hackathon submission because it shows hands-on engineering and general capability without overcomplicating the demonstration."}
+{"kind":"slide","id":"sl/ur1ucb","slide":8,"title":"Core AI Modules","textShapes":74}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":8,"text":"Core AI Modules","textPreview":"Core AI Modules","textChars":15,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":8,"text":"All fifteen modules are grouped into business-facing capabilities for the platform.","textPreview":"All fifteen modules are grouped into business-facing capabilities for the platform.","textChars":83,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":8,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":8,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":8,"text":"Ingestion and intelligence modules","textPreview":"Ingestion and intelligence modules","textChars":34,"textLines":1,"bbox":[74,140,520,24]}
+{"kind":"textbox","id":"sh/obm58z25","slide":8,"text":"Decision, trust, and platform modules","textPreview":"Decision, trust, and platform modules","textChars":37,"textLines":1,"bbox":[654,140,520,24]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":8,"text":"Module","textPreview":"Module","textChars":6,"textLines":1,"bbox":[72,174,118,34]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":8,"text":"Purpose","textPreview":"Purpose","textChars":7,"textLines":1,"bbox":[190,174,150,34]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":8,"text":"Technology","textPreview":"Technology","textChars":10,"textLines":1,"bbox":[340,174,120,34]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":8,"text":"Business Benefit","textPreview":"Business Benefit","textChars":16,"textLines":1,"bbox":[460,174,152,34]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":8,"text":"PDF Loader","textPreview":"PDF Loader","textChars":10,"textLines":1,"bbox":[72,208,118,34]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":8,"text":"Parse policy pages","textPreview":"Parse policy pages","textChars":18,"textLines":1,"bbox":[190,208,150,34]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":8,"text":"PyMuPDF","textPreview":"PyMuPDF","textChars":7,"textLines":1,"bbox":[340,208,120,34]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":8,"text":"Creates analyzable input","textPreview":"Creates analyzable input","textChars":24,"textLines":1,"bbox":[460,208,152,34]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":8,"text":"Document Classifier","textPreview":"Document Classifier","textChars":19,"textLines":1,"bbox":[72,242,118,34]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":8,"text":"Identify document type","textPreview":"Identify document type","textChars":22,"textLines":1,"bbox":[190,242,150,34]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":8,"text":"Rules + LLM","textPreview":"Rules + LLM","textChars":11,"textLines":1,"bbox":[340,242,120,34]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":8,"text":"Routes correct workflow","textPreview":"Routes correct workflow","textChars":23,"textLines":1,"bbox":[460,242,152,34]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":8,"text":"Summarizer","textPreview":"Summarizer","textChars":10,"textLines":1,"bbox":[72,276,118,34]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":8,"text":"Create structured summary","textPreview":"Create structured summary","textChars":25,"textLines":1,"bbox":[190,276,150,34]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":8,"text":"LLM","textPreview":"LLM","textChars":3,"textLines":1,"bbox":[340,276,120,34]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":8,"text":"Speeds analyst review","textPreview":"Speeds analyst review","textChars":21,"textLines":1,"bbox":[460,276,152,34]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":8,"text":"Version Comparison","textPreview":"Version Comparison","textChars":18,"textLines":1,"bbox":[72,310,118,34]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":8,"text":"Compare old vs new policies","textPreview":"Compare old vs new policies","textChars":27,"textLines":1,"bbox":[190,310,150,34]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":8,"text":"Diff + LLM","textPreview":"Diff + LLM","textChars":10,"textLines":1,"bbox":[340,310,120,34]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":8,"text":"Highlights meaningful change","textPreview":"Highlights meaningful change","textChars":28,"textLines":1,"bbox":[460,310,152,34]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":8,"text":"Embeddings","textPreview":"Embeddings","textChars":10,"textLines":1,"bbox":[72,344,118,34]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":8,"text":"Vectorize text chunks","textPreview":"Vectorize text chunks","textChars":21,"textLines":1,"bbox":[190,344,150,34]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":8,"text":"Sentence Transformers","textPreview":"Sentence Transformers","textChars":21,"textLines":1,"bbox":[340,344,120,34]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":8,"text":"Enables semantic retrieval","textPreview":"Enables semantic retrieval","textChars":26,"textLines":1,"bbox":[460,344,152,34]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":8,"text":"Vector Store","textPreview":"Vector Store","textChars":12,"textLines":1,"bbox":[72,378,118,34]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":8,"text":"Store/search vectors","textPreview":"Store/search vectors","textChars":20,"textLines":1,"bbox":[190,378,150,34]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":8,"text":"FAISS","textPreview":"FAISS","textChars":5,"textLines":1,"bbox":[340,378,120,34]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":8,"text":"Fast similarity search","textPreview":"Fast similarity search","textChars":22,"textLines":1,"bbox":[460,378,152,34]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":8,"text":"RAG","textPreview":"RAG","textChars":3,"textLines":1,"bbox":[72,412,118,34]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":8,"text":"Answer policy questions","textPreview":"Answer policy questions","textChars":23,"textLines":1,"bbox":[190,412,150,34]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":8,"text":"Retriever + LLM","textPreview":"Retriever + LLM","textChars":15,"textLines":1,"bbox":[340,412,120,34]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":8,"text":"Grounded policy Q&A","textPreview":"Grounded policy Q&A","textChars":19,"textLines":1,"bbox":[460,412,152,34]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":8,"text":"Prompt Manager","textPreview":"Prompt Manager","textChars":14,"textLines":1,"bbox":[72,446,118,34]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":8,"text":"Centralize prompts","textPreview":"Centralize prompts","textChars":18,"textLines":1,"bbox":[190,446,150,34]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":8,"text":"Template control","textPreview":"Template control","textChars":16,"textLines":1,"bbox":[340,446,120,34]}
+{"kind":"textbox","id":"sh/svu9knih","slide":8,"text":"Consistent prompt quality","textPreview":"Consistent prompt quality","textChars":25,"textLines":1,"bbox":[460,446,152,34]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":8,"text":"Module","textPreview":"Module","textChars":6,"textLines":1,"bbox":[648,174,118,34]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":8,"text":"Purpose","textPreview":"Purpose","textChars":7,"textLines":1,"bbox":[766,174,150,34]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":8,"text":"Technology","textPreview":"Technology","textChars":10,"textLines":1,"bbox":[916,174,120,34]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":8,"text":"Business Benefit","textPreview":"Business Benefit","textChars":16,"textLines":1,"bbox":[1036,174,172,34]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":8,"text":"Rule Extraction","textPreview":"Rule Extraction","textChars":15,"textLines":1,"bbox":[648,208,118,34]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":8,"text":"Convert policy to rules","textPreview":"Convert policy to rules","textChars":23,"textLines":1,"bbox":[766,208,150,34]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":8,"text":"LLM + schema","textPreview":"LLM + schema","textChars":12,"textLines":1,"bbox":[916,208,120,34]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":8,"text":"Draft executable logic","textPreview":"Draft executable logic","textChars":22,"textLines":1,"bbox":[1036,208,172,34]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":8,"text":"Feature Extraction","textPreview":"Feature Extraction","textChars":18,"textLines":1,"bbox":[648,242,118,34]}
+{"kind":"textbox","id":"sh/vixczed8","slide":8,"text":"Create structured features","textPreview":"Create structured features","textChars":26,"textLines":1,"bbox":[766,242,150,34]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":8,"text":"LLM + regex","textPreview":"LLM + regex","textChars":11,"textLines":1,"bbox":[916,242,120,34]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":8,"text":"Model-ready policy data","textPreview":"Model-ready policy data","textChars":23,"textLines":1,"bbox":[1036,242,172,34]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":8,"text":"Rule Engine","textPreview":"Rule Engine","textChars":11,"textLines":1,"bbox":[648,276,118,34]}
+{"kind":"textbox","id":"sh/val87ed8","slide":8,"text":"Evaluate rules on features","textPreview":"Evaluate rules on features","textChars":26,"textLines":1,"bbox":[766,276,150,34]}
+{"kind":"textbox","id":"sh/knih4byh","slide":8,"text":"Deterministic Python","textPreview":"Deterministic Python","textChars":20,"textLines":1,"bbox":[916,276,120,34]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":8,"text":"Transparent decision checks","textPreview":"Transparent decision checks","textChars":27,"textLines":1,"bbox":[1036,276,172,34]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":8,"text":"ML Model","textPreview":"ML Model","textChars":8,"textLines":1,"bbox":[648,310,118,34]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":8,"text":"Generate predictive signals","textPreview":"Generate predictive signals","textChars":27,"textLines":1,"bbox":[766,310,150,34]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":8,"text":"Scikit-learn","textPreview":"Scikit-learn","textChars":12,"textLines":1,"bbox":[916,310,120,34]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":8,"text":"Adds probabilistic support","textPreview":"Adds probabilistic support","textChars":26,"textLines":1,"bbox":[1036,310,172,34]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":8,"text":"Claim Decision","textPreview":"Claim Decision","textChars":14,"textLines":1,"bbox":[648,344,118,34]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":8,"text":"Combine rule + ML signals","textPreview":"Combine rule + ML signals","textChars":25,"textLines":1,"bbox":[766,344,150,34]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":8,"text":"Hybrid logic","textPreview":"Hybrid logic","textChars":12,"textLines":1,"bbox":[916,344,120,34]}
+{"kind":"textbox","id":"sh/61032lsz","slide":8,"text":"Final recommendation","textPreview":"Final recommendation","textChars":20,"textLines":1,"bbox":[1036,344,172,34]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":8,"text":"Explainability","textPreview":"Explainability","textChars":14,"textLines":1,"bbox":[648,378,118,34]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":8,"text":"Explain why decision happened","textPreview":"Explain why decision happened","textChars":29,"textLines":1,"bbox":[766,378,150,34]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":8,"text":"Traceable reasoning","textPreview":"Traceable reasoning","textChars":19,"textLines":1,"bbox":[916,378,120,34]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":8,"text":"Builds user trust","textPreview":"Builds user trust","textChars":17,"textLines":1,"bbox":[1036,378,172,34]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":8,"text":"Evaluation","textPreview":"Evaluation","textChars":10,"textLines":1,"bbox":[648,412,118,34]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":8,"text":"Score system quality","textPreview":"Score system quality","textChars":20,"textLines":1,"bbox":[766,412,150,34]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":8,"text":"Rule-based QA","textPreview":"Rule-based QA","textChars":13,"textLines":1,"bbox":[916,412,120,34]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":8,"text":"Monitors groundedness","textPreview":"Monitors groundedness","textChars":21,"textLines":1,"bbox":[1036,412,172,34]}
+{"kind":"notes","id":"nt/ur1ucb","slide":8,"text":"This slide summarizes the full module inventory across the project.\nThe left table covers ingestion, understanding, retrieval, and prompt governance. The right table covers extraction, decision logic, explainability, and evaluation.\nI framed each module in terms of business purpose and benefit so the audience can see how technical components map to operational value.\nThis also reinforces that the platform is modular and extendable rather than being a one-off demo script."}
+{"kind":"slide","id":"sl/7g236m","slide":9,"title":"POC Demonstration","textShapes":25}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":9,"text":"POC Demonstration","textPreview":"POC Demonstration","textChars":17,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":9,"text":"Suggested storyboard for the live demo and screenshot evidence.","textPreview":"Suggested storyboard for the live demo and screenshot evidence.","textChars":63,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/0z61032l","slide":9,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":9,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":9,"bbox":[74,154,260,150]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":9,"text":"Upload page","textPreview":"Upload page","textChars":11,"textLines":1,"bbox":[92,168,224,24]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":9,"text":"Show policy upload and extraction","textPreview":"Show policy upload and extraction","textChars":33,"textLines":1,"bbox":[92,200,224,92]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":9,"text":"Insert working POC screenshot","textPreview":"Insert working POC screenshot","textChars":29,"textLines":1,"bbox":[92,270,224,18]}
+{"kind":"shape","id":"sh/8v6psfil","slide":9,"bbox":[362,154,260,150]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":9,"text":"Classification page","textPreview":"Classification page","textChars":19,"textLines":1,"bbox":[380,168,224,24]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":9,"text":"Display document type and confidence","textPreview":"Display document type and confidence","textChars":36,"textLines":1,"bbox":[380,200,224,92]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":9,"text":"Insert working POC screenshot","textPreview":"Insert working POC screenshot","textChars":29,"textLines":1,"bbox":[380,270,224,18]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":9,"bbox":[650,154,260,150]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":9,"text":"Summary page","textPreview":"Summary page","textChars":12,"textLines":1,"bbox":[668,168,224,24]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":9,"text":"Show executive summary and structured sections","textPreview":"Show executive summary and structured sections","textChars":46,"textLines":1,"bbox":[668,200,224,92]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":9,"text":"Insert working POC screenshot","textPreview":"Insert working POC screenshot","textChars":29,"textLines":1,"bbox":[668,270,224,18]}
+{"kind":"shape","id":"sh/87ed8bat","slide":9,"bbox":[938,154,260,150]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":9,"text":"Policy Chat","textPreview":"Policy Chat","textChars":11,"textLines":1,"bbox":[956,168,224,24]}
+{"kind":"textbox","id":"sh/lwval87e","slide":9,"text":"Grounded policy answer with sources","textPreview":"Grounded policy answer with sources","textChars":35,"textLines":1,"bbox":[956,200,224,92]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":9,"text":"Insert working POC screenshot","textPreview":"Insert working POC screenshot","textChars":29,"textLines":1,"bbox":[956,270,224,18]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":9,"bbox":[170,350,260,150]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":9,"text":"Rule Extraction","textPreview":"Rule Extraction","textChars":15,"textLines":1,"bbox":[188,364,224,24]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":9,"text":"Normalized rules and conditions","textPreview":"Normalized rules and conditions","textChars":31,"textLines":1,"bbox":[188,396,224,92]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":9,"text":"Insert working POC screenshot","textPreview":"Insert working POC screenshot","textChars":29,"textLines":1,"bbox":[188,466,224,18]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":9,"bbox":[510,350,260,150]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":9,"text":"Claim Decision","textPreview":"Claim Decision","textChars":14,"textLines":1,"bbox":[528,364,224,24]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":9,"text":"Hybrid decision with reasons and risks","textPreview":"Hybrid decision with reasons and risks","textChars":38,"textLines":1,"bbox":[528,396,224,92]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":9,"text":"Insert working POC screenshot","textPreview":"Insert working POC screenshot","textChars":29,"textLines":1,"bbox":[528,466,224,18]}
+{"kind":"shape","id":"sh/6tovahoz","slide":9,"bbox":[850,350,260,150]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":9,"text":"Analytics Dashboard","textPreview":"Analytics Dashboard","textChars":19,"textLines":1,"bbox":[868,364,224,24]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":9,"text":"End-to-end portfolio view","textPreview":"End-to-end portfolio view","textChars":25,"textLines":1,"bbox":[868,396,224,92]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":9,"text":"Insert working POC screenshot","textPreview":"Insert working POC screenshot","textChars":29,"textLines":1,"bbox":[868,466,224,18]}
+{"kind":"notes","id":"nt/7g236m","slide":9,"text":"This slide is designed to support the demo portion of the presentation.\nEach placeholder can be replaced with a clean screenshot from the working Streamlit application. The most important screens are upload, classification, summarization, policy chat, rule extraction, claim decisioning, and analytics.\nDuring the live presentation, I would walk through the workflow in the same order shown earlier so the story remains easy to follow.\nThis keeps the POC concrete and visually grounded for both technical and non-technical reviewers."}
+{"kind":"slide","id":"sl/vsreev","slide":10,"title":"Business Value","textShapes":12}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":10,"text":"Business Value","textPreview":"Business Value","textChars":14,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":10,"text":"The proof of concept is designed to create operational leverage, not just technical novelty.","textPreview":"The proof of concept is designed to create operational leverage, not just technical novelty.","textChars":92,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/nih4byhg","slide":10,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":10,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":10,"text":"Value infographic","textPreview":"Value infographic","textChars":17,"textLines":1,"bbox":[88,158,250,24]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":10,"text":"Payment\nIntegrity","textPreview":"Payment | Integrity","textChars":17,"textLines":2,"bbox":[132,252,250,250]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":10,"bbox":[460,176,300,92]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":10,"text":"Reduced manual review","textPreview":"Reduced manual review","textChars":21,"textLines":1,"bbox":[478,190,264,24]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":10,"bbox":[820,176,300,92]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":10,"text":"Faster policy updates","textPreview":"Faster policy updates","textChars":21,"textLines":1,"bbox":[838,190,264,24]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":10,"bbox":[460,320,300,92]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":10,"text":"Improved consistency","textPreview":"Improved consistency","textChars":20,"textLines":1,"bbox":[478,334,264,24]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":10,"bbox":[820,320,300,92]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":10,"text":"Higher payment integrity","textPreview":"Higher payment integrity","textChars":24,"textLines":1,"bbox":[838,334,264,24]}
+{"kind":"shape","id":"sh/7u54zido","slide":10,"bbox":[460,464,300,92]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":10,"text":"Scalable AI platform","textPreview":"Scalable AI platform","textChars":20,"textLines":1,"bbox":[478,478,264,24]}
+{"kind":"shape","id":"sh/psfil0rq","slide":10,"bbox":[820,464,300,92]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":10,"text":"Human-in-the-loop validation","textPreview":"Human-in-the-loop validation","textChars":28,"textLines":1,"bbox":[838,478,264,24]}
+{"kind":"notes","id":"nt/vsreev","slide":10,"text":"The business value is centered on better payment integrity supported by faster and more consistent policy intelligence.\nInstead of presenting aggressive ROI claims, this slide stays grounded in realistic value areas: reduced manual review, faster policy updates, better consistency, scalable platform design, and explainable human validation.\nThat framing is important because this is a hackathon proof of concept. The goal is to demonstrate believable capability and strategic relevance, not to overclaim production results.\nNext, I address how the platform handles responsible AI concerns."}
+{"kind":"slide","id":"sl/9w7367","slide":11,"title":"Responsible AI and Governance","textShapes":19}
+{"kind":"textbox","id":"sh/9cvixcze","slide":11,"text":"Responsible AI and Governance","textPreview":"Responsible AI and Governance","textChars":29,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":11,"text":"High-stakes healthcare workflows require grounded answers, transparent logic, and visible controls.","textPreview":"High-stakes healthcare workflows require grounded answers, transparent logic, and visible controls.","textChars":99,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/r65wjudg","slide":11,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":11,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"shape","id":"sh/yxobm58z","slide":11,"bbox":[90,170,400,66]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":11,"text":"Hallucination risk","textPreview":"Hallucination risk","textChars":18,"textLines":1,"bbox":[108,184,364,24]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[522,190,24,28]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":11,"bbox":[568,170,620,66]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":11,"text":"RAG grounds answers in retrieved policy text and source citations.","textPreview":"RAG grounds answers in retrieved policy text and source citations.","textChars":66,"textLines":1,"bbox":[586,184,584,24]}
+{"kind":"shape","id":"sh/onyd0z61","slide":11,"bbox":[90,258,400,66]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":11,"text":"Policy ambiguity","textPreview":"Policy ambiguity","textChars":16,"textLines":1,"bbox":[108,272,364,24]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[522,278,24,28]}
+{"kind":"shape","id":"sh/dg7adsji","slide":11,"bbox":[568,258,620,66]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":11,"text":"Human reviewers validate summaries, rules, and decision recommendations.","textPreview":"Human reviewers validate summaries, rules, and decision recommendations.","textChars":72,"textLines":1,"bbox":[586,272,584,24]}
+{"kind":"shape","id":"sh/vahoza1g","slide":11,"bbox":[90,346,400,66]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":11,"text":"Low-confidence outputs","textPreview":"Low-confidence outputs","textChars":22,"textLines":1,"bbox":[108,360,364,24]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[522,366,24,28]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":11,"bbox":[568,346,620,66]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":11,"text":"Confidence scoring and evaluation signals surface uncertainty.","textPreview":"Confidence scoring and evaluation signals surface uncertainty.","textChars":62,"textLines":1,"bbox":[586,360,584,24]}
+{"kind":"shape","id":"sh/94fu18jq","slide":11,"bbox":[90,434,400,66]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":11,"text":"Opaque recommendations","textPreview":"Opaque recommendations","textChars":22,"textLines":1,"bbox":[108,448,364,24]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[522,454,24,28]}
+{"kind":"shape","id":"sh/gvy90je9","slide":11,"bbox":[568,434,620,66]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":11,"text":"Explainability module shows reasons, evidence, and next actions.","textPreview":"Explainability module shows reasons, evidence, and next actions.","textChars":64,"textLines":1,"bbox":[586,448,584,24]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":11,"bbox":[90,522,400,66]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":11,"text":"Compliance exposure","textPreview":"Compliance exposure","textChars":19,"textLines":1,"bbox":[108,536,364,24]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":11,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[522,542,24,28]}
+{"kind":"shape","id":"sh/9knih4by","slide":11,"bbox":[568,522,620,66]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":11,"text":"Audit trails, structured outputs, and HIPAA-aware handling support review.","textPreview":"Audit trails, structured outputs, and HIPAA-aware handling support review.","textChars":74,"textLines":1,"bbox":[586,536,584,24]}
+{"kind":"notes","id":"nt/9w7367","slide":11,"text":"Responsible AI is essential for this use case because healthcare content directly influences high-stakes operational decisions.\nThe main risks are hallucination, ambiguity, low confidence, lack of transparency, and compliance exposure.\nThe platform addresses those risks through grounded retrieval, confidence signals, structured outputs, explainability, evaluation, and human-in-the-loop review.\nThis is also why the recommendation is to position the system as decision support rather than as a fully autonomous adjudication engine."}
+{"kind":"slide","id":"sl/ufv5pn","slide":12,"title":"Future Enhancements","textShapes":14}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":12,"text":"Future Enhancements","textPreview":"Future Enhancements","textChars":19,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":12,"text":"A phased roadmap keeps the strategy practical while expanding the intelligence layer over time.","textPreview":"A phased roadmap keeps the strategy practical while expanding the intelligence layer over time.","textChars":95,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/0fepkzup","slide":12,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":12,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"shape","id":"sh/tovahoza","slide":12,"bbox":[102,212,304,250]}
+{"kind":"textbox","id":"sh/032lszqt","slide":12,"text":"Now","textPreview":"Now","textChars":3,"textLines":1,"bbox":[120,226,268,24]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":12,"text":"• Imaging policy rollout\n• Prior authorization workflows\n• Human-reviewed rule authoring","textPreview":"• Imaging policy rollout | • Prior authorization workflows | • Human-reviewed rule authoring","textChars":88,"textLines":3,"bbox":[120,258,268,192]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":12,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[418,320,24,28]}
+{"kind":"shape","id":"sh/ovahoza1","slide":12,"bbox":[470,212,304,250]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":12,"text":"Next","textPreview":"Next","textChars":4,"textLines":1,"bbox":[488,226,268,24]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":12,"text":"• FHIR integration\n• Knowledge graph layer\n• Cloud-hosted collaboration","textPreview":"• FHIR integration | • Knowledge graph layer | • Cloud-hosted collaboration","textChars":71,"textLines":3,"bbox":[488,258,268,192]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":12,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[786,320,24,28]}
+{"kind":"shape","id":"sh/onyd0z61","slide":12,"bbox":[838,212,304,250]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":12,"text":"Later","textPreview":"Later","textChars":5,"textLines":1,"bbox":[856,226,268,24]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":12,"text":"• Graph RAG\n• Multi-agent orchestration\n• Real-time monitoring and feedback learning","textPreview":"• Graph RAG | • Multi-agent orchestration | • Real-time monitoring and feedback learning","textChars":84,"textLines":3,"bbox":[856,258,268,192]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":12,"bbox":[102,506,1040,90]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":12,"text":"Strategic posture","textPreview":"Strategic posture","textChars":17,"textLines":1,"bbox":[120,520,1004,24]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":12,"text":"Start with a narrow, high-value analyst copilot and expand only after the trust, retrieval quality, and rule-feature alignment are strong.","textPreview":"Start with a narrow, high-value analyst copilot and expand only after the trust, retrieval quality, and rule-feature alignment are strong.","textChars":138,"textLines":1,"bbox":[120,552,1004,32]}
+{"kind":"notes","id":"nt/ufv5pn","slide":12,"text":"This roadmap reflects the recommendation from the written report: start narrow, prove value, and then expand.\nThe first phase focuses on use cases where policy interpretation matters immediately and where human review can stay closely involved.\nThe next and later phases show how the platform could grow into richer interoperability, knowledge graph, and monitoring capabilities without changing the core business logic.\nThat approach balances ambition with realism, which is important for both Cotiviti and the hackathon context."}
+{"kind":"slide","id":"sl/blec3n","slide":13,"title":"Conclusion","textShapes":14}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":13,"text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[54,26,720,46]}
+{"kind":"textbox","id":"sh/sji5snel","slide":13,"text":"The project demonstrates a practical path from policy documents to explainable decision support.","textPreview":"The project demonstrates a practical path from policy documents to explainable decision support.","textChars":96,"textLines":1,"bbox":[54,72,860,24]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":13,"bbox":[54,108,1172,2]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":13,"text":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textPreview":"Cotiviti Hackathon Assessment | AI-Powered Healthcare Content Intelligence Platform","textChars":83,"textLines":1,"bbox":[54,686,420,18]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1180,684,40,18]}
+{"kind":"shape","id":"sh/s72x4nap","slide":13,"bbox":[82,170,520,130]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":13,"text":"Problem","textPreview":"Problem","textChars":7,"textLines":1,"bbox":[100,184,484,24]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":13,"text":"Healthcare policy review is complex, slow, and difficult to operationalize consistently.","textPreview":"Healthcare policy review is complex, slow, and difficult to operationalize consistently.","textChars":88,"textLines":1,"bbox":[100,216,484,72]}
+{"kind":"shape","id":"sh/zidonyd0","slide":13,"bbox":[642,170,520,130]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":13,"text":"Solution","textPreview":"Solution","textChars":8,"textLines":1,"bbox":[660,184,484,24]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":13,"text":"A modular AI platform converts documents into grounded summaries, answers, rules, features, and recommendations.","textPreview":"A modular AI platform converts documents into grounded summaries, answers, rules, features, and recommendations.","textChars":112,"textLines":1,"bbox":[660,216,484,72]}
+{"kind":"shape","id":"sh/9knih4by","slide":13,"bbox":[82,340,520,130]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":13,"text":"POC proof","textPreview":"POC proof","textChars":9,"textLines":1,"bbox":[100,354,484,24]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":13,"text":"The working Streamlit demonstrator shows the full end-to-end flow across multiple AI modules.","textPreview":"The working Streamlit demonstrator shows the full end-to-end flow across multiple AI modules.","textChars":93,"textLines":1,"bbox":[100,386,484,72]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":13,"bbox":[642,340,520,130]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":13,"text":"Strategic value","textPreview":"Strategic value","textChars":15,"textLines":1,"bbox":[660,354,484,24]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":13,"text":"Cotiviti can explore this as a human-in-the-loop capability aligned with payment integrity workflows.","textPreview":"Cotiviti can explore this as a human-in-the-loop capability aligned with payment integrity workflows.","textChars":101,"textLines":1,"bbox":[660,386,484,72]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":13,"text":"AI + Human Expertise = Better Healthcare Payment Integrity","textPreview":"AI + Human Expertise = Better Healthcare Payment Integrity","textChars":58,"textLines":1,"bbox":[120,556,1040,46]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":13,"text":"Detailed references are provided in the written report bibliography.","textPreview":"Detailed references are provided in the written report bibliography.","textChars":68,"textLines":1,"bbox":[220,610,840,22]}
+{"kind":"notes","id":"nt/blec3n","slide":13,"text":"To conclude, the core problem is real, the proposed solution is aligned to Cotiviti’s domain, and the proof of concept demonstrates the concept in a practical way.\nThe platform is intentionally modular, explainable, and human-in-the-loop. That is what makes it more believable as a strategic direction than a generic AI demo.\nIf Cotiviti wants to explore this area further, the best next step is a focused pilot around high-value policy use cases with clear evaluation criteria.\nThe final takeaway is simple: AI plus human expertise can create better healthcare payment integrity outcomes."}
