@@ -1,8 +1,7 @@
-### The below Folders contains the files needed for the Assessment:
+### The below Folders contains the report and presentation files:
 
 ### Written report -  contains the project report
 ### Slide Presentation - Contains the project presentation slides
-### Demo Video - Due to size of the file, I have uploaded it as drive link with access to view and edit.
 
 
 # Healthcare Content Intelligence Platform
